@@ -16,4 +16,4 @@ Game belajar mengetik yang menyenangkan dengan kata-kata makanan dan bahan masak
 5. Lihat skor kamu di akhir permainan.
 
 ## Cara Menjalankan
-[Klik ini maka anda akan dapat bermain game](url-link)
+[Klik ini maka anda akan dapat bermain game](https://miya3333.github.io/game-mengetik/)
