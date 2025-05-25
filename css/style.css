@@ -1,0 +1,143 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #282a36;
+  color: #fff;
+  overflow: hidden;
+}
+
+#gameArea {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+/* Navbar: Flex container untuk elemen di atas */
+.navbar {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 0 1rem;
+  flex-wrap: wrap; /* biar kalau sempit bisa wrap */
+}
+.main-menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 2rem;
+}
+
+#chef {
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  background: url('https://cdn-icons-png.flaticon.com/512/135/135763.png') no-repeat center/contain;
+  pointer-events: none;
+  transition: top 0.3s ease, left 0.3s ease;
+}
+
+/* Input box sekarang inline di navbar */
+#inputBox {
+  font-size: 20px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  width: 300px;
+  flex-shrink: 0; /* supaya ga ngecil */
+  background-color: #44475a;
+  color: #fff;
+
+  opacity: 0;         /* bikin transparan (invisible) */
+  user-select: none;  /* optional: supaya teks tidak terlihat dipilih */
+  caret-color: transparent; /* sembunyikan kursor teks */
+}
+
+/* Timer juga di navbar, styling */
+#timer {
+  font-size: 20px;
+  background: #44475a;
+  padding: 5px 10px;
+  border-radius: 5px;
+  flex-shrink: 0;
+}
+
+/* Controls: label + select, inline */
+#controls {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: #44475a;
+  padding: 5px 10px;
+  border-radius: 5px;
+  flex-shrink: 0;
+}
+
+#controls label {
+  font-size: 16px;
+  user-select: none;
+}
+
+#controls select {
+  font-size: 16px;
+  padding: 4px 8px;
+  border-radius: 4px;
+  border: none;
+}
+
+/* Food words tetap posisi absolute supaya bisa acak */
+.food {
+  position: absolute;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 1.5rem;
+  display: inline-block;
+  white-space: nowrap;
+  transition: opacity 0.3s ease;
+}
+
+.dim {
+  opacity: 0.5;
+}
+
+/* Popup styling tetap */
+#popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  color: #fff;
+  font-size: 20px;
+  z-index: 999;
+  display: none;
+}
+
+#popup button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 18px;
+  background: #50fa7b;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#popup button:hover {
+  background: #40c967;
+}
+
+.score-container {
+  text-align: center;
+}

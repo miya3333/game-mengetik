@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Game Mengetik Makanan</title>
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+    <div id="gameArea">
+        <div class="navbar">
+            <div id="chef"></div>
+
+            <div class="main-menu">
+                <div id="timer">Waktu: 00:30</div>
+
+                <div id="controls">
+                    <label for="durationSelect">Pilih Durasi:</label>
+                    <select id="durationSelect">
+                        <option value="30">30 detik</option>
+                        <option value="60">1 menit</option>
+                        <option value="90">1 menit 30 detik</option>
+                        <option value="120">2 menit</option>
+                        <option value="150">2 menit 30 detik</option>
+                        <option value="180">3 menit</option>
+                        <option value="210">3 menit 30 detik</option>
+                        <option value="240">4 menit</option>
+                        <option value="270">4 menit 30 detik</option>
+                        <option value="300">5 menit</option>
+                        <option value="330">5 menit 30 detik</option>
+                        <option value="360">6 menit</option>
+                        <option value="390">6 menit 30 detik</option>
+                        <option value="420">7 menit</option>
+                        <option value="450">7 menit 30 detik</option>
+                        <option value="480">8 menit</option>
+                        <option value="510">8 menit 30 detik</option>
+                        <option value="540">9 menit</option>
+                        <option value="570">9 menit 30 detik</option>
+                        <option value="600">10 menit</option>
+                    </select>
+                </div>
+            </div>
+
+            <input type="text" id="inputBox" placeholder="Ketik di sini..." autocomplete="off" />
+        </div>
+    </div>
+
+    <div id="popup">
+        <div id="scoreDisplay"></div>
+        <button id="restartBtn">Main Lagi</button>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
