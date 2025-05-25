@@ -10,7 +10,7 @@ Game belajar mengetik yang menyenangkan dengan kata-kata makanan dan bahan masak
 
 ## Cara Main
 1. Pilih durasi waktu permainan.
-2. Ketik kata yang muncul di layar secara benar.
+2. Ketik kata yang ada keranjang sayurnya secara benar.
 3. Setiap kata yang diketik benar akan hilang dan digantikan kata baru.
 4. Permainan berakhir saat waktu habis.
 5. Lihat skor kamu di akhir permainan.
