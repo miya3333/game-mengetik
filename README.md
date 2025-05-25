@@ -18,6 +18,5 @@ Game belajar mengetik yang menyenangkan dengan kata-kata makanan dan bahan masak
 ## Cara Menjalankan
 [Klik ini maka anda akan dapat bermain game](https://miya3333.github.io/game-mengetik/)
 
-## Catatan:
-Anda diperbolehkan menggunakan, memodifikasi, atau mendistribusikan ulang dengan izin tertulis dari pemilik. </br>
-Silakan hubungi [instagram](https://instagram.com/reh.idla) untuk mendapatkan izin.
+> ## Catatan:
+> Anda diperbolehkan menggunakan, memodifikasi, atau mendistribusikan ulang dengan izin tertulis dari pemilik. </br> Silakan hubungi [instagram](https://instagram.com/reh.idla) untuk mendapatkan izin.
